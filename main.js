@@ -63,7 +63,7 @@ function make_chance() {
 
     var bigger = bcha > rcha ? ">": "<"
 
-    document.getElementById("result").innerText = "Chances: Х - " + Math.round(bcha * 100) + "% " + bigger + " Б - " + Math.round(rcha * 100) + "%"
+    document.getElementById("result").innerText = "Chances: Х = " + Math.round(bcha * 100) + "% " + bigger + " Б = " + Math.round(rcha * 100) + "%"
 }
 
 function start_game() {
